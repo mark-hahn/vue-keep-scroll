@@ -2,7 +2,7 @@
   "name": "vue-keep-scroll",
   "version": "0.1.0",
   "main": "lib/vue-keep-scroll.js",
-  "description": "coming soon",
+  "description": "A Vue.JS plugin directive to remember element scroll-position when detached",
   "license": "MIT",
   "repository": {
     "type": "git",

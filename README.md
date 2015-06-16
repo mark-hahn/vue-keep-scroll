@@ -1,8 +1,16 @@
 # vue-keep-scroll
 
-If a DOM fragment is removed from the DOM and then re-attached any scoll positions are lost. This is typically the situation when dynamic Vue components are used to switch pages.
+###A  Vue.JS plugin directive to remember element scroll-position when detached
+
+## Problem
+
+If a DOM fragment is removed from the DOM and then re-attached any scroll positions are lost. This is typically the situation when dynamic Vue components are used to switch pages.
 
  This is true in the Chrome Browser.  It may or may not happen in other browsers but for the application to work in all browsers this is needed.
+
+## Solution
+
+vue-keep-scroll is a directive that continually stores the scroll position of the element to which it is applied.  On every scroll event it stores the left/top scroll position in a `data-vuescrlpos` attribute.  Then whenever the element is attached to the DOM the scroll position is set based on that data attribute.
 
 ## Usage
 
@@ -19,12 +27,12 @@ If a DOM fragment is removed from the DOM and then re-attached any scoll positio
 
 - You can also directly include it with a `<script>` tag when you have Vue itself included globally. It will automatically install itself, and will add a global `vueKeepScroll`.
 
-### Use in templates
+### Use directive
 
 Then you can do this.
 
 ``` html
-<div style="overflow:auto" v-keep-scroll">Tall list that scrolls.</a>
+<div style="overflow:auto" v-keep-scroll>Tall list that scrolls.</div>
 ```
 
 When this is in a DOM fragment that is detached from the DOM and reattached, the scroll position will be kept.
