@@ -37,9 +37,9 @@ Then you can do this.
 
 When this is in a DOM fragment that is detached from the DOM and reattached, the scroll position will be kept.
 
-## Building
+## Hacking
 
-When installed with npm the script `compile.bat` will run and compile the coffeescript in the `src` folder to javascript in the `lib` folder.  Don't worry about the Windows name, this will work on any platform.
+If you wish to modify the source you will need to compile the coffeescript to javascript.  To do this run the `compile.bat` script.  Don't worry about the `.bat` suffix.  It will work on all platforms.
 
 ## License
 

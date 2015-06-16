@@ -8,10 +8,5 @@
     "type": "git",
     "url": "https://github.com/mark-hahn/vue-keep-scroll.git"
   },
-  "bugs": "https://github.com/mark-hahn/vue-keep-scroll/issues",
-  "dependencies": {
-  },
-  "scripts": {
-    "build": "compile.bat"
-  }
+  "bugs": "https://github.com/mark-hahn/vue-keep-scroll/issues"
 }
