@@ -39,7 +39,7 @@ When this is in a DOM fragment that is detached from the DOM and reattached, the
 
 ## Hacking
 
-If you wish to modify the source you will need to compile the coffeescript to javascript.  To do this run the `compile.bat` script.  Don't worry about the `.bat` suffix.  It will work on all platforms.
+If you wish to modify the source you will need to compile the coffeescript to javascript.  To do this run the `compile` script. It will work on all platforms as it's just a coffee command.
 
 ## License
 
